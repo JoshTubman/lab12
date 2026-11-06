@@ -7,11 +7,10 @@ const ROWS: usize = 10;
 const COLS: usize = 20;
 type Grid = [[bool; COLS]; ROWS];
 
-// All cells dead.
+// All cells dead
 pub fn new_grid() -> Grid {
-    todo!("Implement new_grid")
+    [[false; COLS]; ROWS]
 }
-
 // '#' for a live cell, '.' for a dead cell, one line per row.
 pub fn print_grid(_grid: &Grid) {
     todo!("Implement print_grid")
